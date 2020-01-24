@@ -1,0 +1,26 @@
+{
+  "name": "steam-tradeoffer-url-parser",
+  "version": "1.0.0",
+  "description": "Parses a steam tradeoffer url and gives a URL, token and partner params",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjfx/node-steam-tradeoffer-url-parser.git"
+  },
+  "keywords": [
+    "steam",
+    "tradeoffer",
+    "url",
+    "parser",
+    "jfx"
+  ],
+  "author": "jfx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjfx/node-steam-tradeoffer-url-parser/issues"
+  },
+  "homepage": "https://github.com/itsjfx/node-steam-tradeoffer-url-parser#readme"
+}

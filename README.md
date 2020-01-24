@@ -6,3 +6,22 @@ Parses a steam tradeoffer url and gives a URL, token and partner params
 ```
 npm install steam-tradeoffer-url-parser
 ```
+
+```
+const parse = require('steam-tradeoffer-url-parser');
+
+parse("https://steamcommunity.com/tradeoffer/new/?partner=33230825&token=XXXXXXXX")
+.then(parsed => {
+	console.log(parsed);
+	/*
+	{
+		url: 'https://steamcommunity.com/tradeoffer/new?partner=33230825&token=XXXXXXXX',
+		partner: '33230825',
+		token: 'XXXXXXXXX'
+	}
+	*/
+})
+.catch(err => {
+	console.log(err);
+});
+```
