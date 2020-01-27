@@ -1,6 +1,6 @@
 {
   "name": "steam-tradeoffer-url-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses a steam tradeoffer url and gives a URL, token and partner params",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/itsjfx/node-steam-tradeoffer-url-parser/issues"
   },
-  "homepage": "https://github.com/itsjfx/node-steam-tradeoffer-url-parser#readme"
+  "homepage": "https://github.com/itsjfx/node-steam-tradeoffer-url-parser#readme",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
 }
